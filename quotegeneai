@@ -1,0 +1,23 @@
+import random
+
+quotes = [
+    "Success begins with the courage to start.",
+    "Dream big, work hard, stay humble.",
+    "Every challenge is an opportunity to grow.",
+    "Small steps every day lead to big achievements.",
+    "Discipline beats motivation.",
+    "Your future is created by what you do today.",
+    "Never stop learning because life never stops teaching.",
+    "Believe in yourself even when no one else does.",
+    "Progress is better than perfection.",
+    "The best investment is investing in yourself."
+]
+
+def generate_quote():
+    return random.choice(quotes)
+
+print("\n AI Quote Generator")
+input("Press Enter to generate a quote...")
+
+print("\nQuote of the Day:\n")
+print(f'"{generate_quote()}"')
